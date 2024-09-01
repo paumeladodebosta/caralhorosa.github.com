@@ -1,0 +1,127 @@
+.
+
+eu queria dizer por aqui uma declaração minha, e q eu to abrindo mão do meu orgulho e medo p falar p ti a vdd por trás doq sinto por vc, pq smp me deixam pra trás quando confio assim, por isso q sou tão desconfiado, n é culpa sua, e infelizmente nem minha, eu espero q vc entenda esse meu lado, eu só tenho medo de me entregar novamente de verdade, a verdade é essa, oq eu n conseguia admitir a mim mesmo até então é q eu já fiz isso por você, e por aq digo q te entrego todo meu coração e intensidade, toda minha intenção em te mostrar que te quero e que você é uma das minhas maiores prioridades até agr, porra, sla, só queria dizer de uma forma foda que eu sou muito louco por tu, e q escolhi você p ser a única na minha vida, a mulher q eu quero amar com a alma, a mulher q quero viver tudo q desejo, nós tornar só 1, quero e tento ser o melhor pra você, vc vê minhas demonstrações nas simples coisas q te dou, tipo qse smp qnd comprar um chocolate eu comprar um KitKat q é o meu favorito tlgd? vc vê oq eu sinto nas pequenas coisas q eu faço questão de fazer pra ti, tipo porra, eu to fazendo isso aq pelo bloco de notas do notebook pra depois passar pro papel, e nesse momento eu tô quase chorando só em dizer por aqui q eu te amo pra cacete, tipo namoral, eu espero realmente q dê certo, quero q vc seja a mulher da minha vida, me apaixonei intenso demais por vc, e isso me faz tão bem...enfim meu amor, obrigado por ser tão incrível comigo, vc foi a primeira q fez poemas pra mim, q teve atitudes por conta própria só pra me passar confiança e eu me sentir seguro em relação a vc, dizer q vai mudar determinada coisa q me incomoda só pra me fazer bem... foi nisso aí q vc despertou isso em mim, e eu n me arrependo nem um pouco, nem q desse errado eu me arrependeria, tu é tão incrível q as vzs eu só desacredito q tenho algúem assim na minha vida, bom meu amor, acho que é isso, vou passar pro papel aqui, saiba que eu te amo muito, e que oq a gente tem pode ter ctz q é muito mais forte doq qualquer bosta q tente destruir o nosso futuro, n vou te perder por nada, nada mesmo.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vamos namorar?</title>
+
+    <style>
+        body{
+            background-color: red;
+        }
+
+        .painel{
+            margin: auto;
+            background-color: white;
+            width: 500px;
+            height: 500px;
+            border-radius: 20px;
+            text-align: center;
+            padding-top: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        #sim{
+            height: 40px;
+            width: 60px;
+            background-color: red;
+            border: 2px solid white;
+            border-radius: 10px;
+            color: white;
+            margin-left: -50px;
+        }
+        #nao{
+            position: absolute;
+            height: 40px;
+            width: 60px;
+            background-color: red;
+            border: 2px solid white;
+            border-radius: 10px;
+            color: white;
+            margin-left: 10px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="painel">
+        <h1> pedido de namoro</h1>
+
+        <img src="https://gifman.net/wp-content/uploads/2019/06/ursinho-fofo-apaixonado.gif" alt="">
+
+        <h2>Aceita namorar comigo? </h2>
+        
+
+        <a href="https://youtu.be/XMFPclh-AO4?si=ws3nt5OUZ96Hx0VC"><button id="sim" > Sim! </button></a>
+        <button onmouseover="fuja()" id="nao"> Não! </button>
+        
+    </div>
+
+    <script>
+        function fuja(){
+            var botaoNao = document.getElementById("nao")
+
+            var larguraJanela = window.innerWidth;
+            var alturaJanela = window.innerHeight;
+
+            var maxX = larguraJanela - botaoNao.offsetWidth;
+            var maxY = alturaJanela - botaoNao.offsetHeight;
+
+            var aleatorioX = Math.floor(Math.random() * maxX);
+            var aleatorioY = Math.floor(Math.random() * maxY);
+
+            botaoNao.style.left = aleatorioX + "px";
+            botaoNao.style.top = aleatorioY + "px";
+
+
+        }
+    </script>
+
+
+
+    
+</body>
+</html>
